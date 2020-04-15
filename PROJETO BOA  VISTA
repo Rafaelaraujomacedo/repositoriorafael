@@ -1,0 +1,415 @@
+> Início Projeto Boa Vista 23.04.2019 <
+
+1 DATA FACTORY
+
+2 Fluxo do projeto.
+
+3 (Fro7d1aG  wifi) - (Senha BitLocker - As65DQ4V)  - (Acessar máquina - tr_pbandeira - senha: inicio@123)  ou yC2f7B+A(v     < Nova senha maquina > @Pitagoras321
+
+(tr_rmacedo > @Arthur1982 )
+
+=========================================================
+
+Acesso ao Nimsoft: 
+Usuario: tr_rmacedo
+Senha  : Inicio@123
+
+=========================================================
+
+
+
+Montar um fluxo inicial local testando as conexões.
+
+SSIS - Verificação ferramenta se carrega para (Sql serve) as tabelas.
+
+SQL Serve - Como usar essa ferramenta.
+
+NETIZZA - ETL da IBM compreender essa ferramenta.
+
+(Microsoft @Cruze2014)
+
+ACESSO DATA FACTORY - https://portal.azure.com/#@2452f924-eda5-49ee-a059-393ab49c019a/resource/subscriptions/ede7104d-6073-4f27-b151-a953681247ea/resourceGroups/DF-Testes/providers/Microsoft.DataFactory/factories/Blue-agro/overview
+
+( DATA 24/04/2019 ) Quarta Feira.
+
+Instalação:
+Visual Studio 2017 Ok
+Extensão para visual Studio 'SSDT'
+SQL Server Management Studio  Ok
+Instância SQL Server Express
+Sublime (editor)
+
+Acessos:
+Data Factory Integration RunTime na máquina do Marcos  (máquina onde esta instalado o SQL Server)
+SQL Server PDW (sql que vai receber uma cópia do PDW para desenvolvimento)
+Azure DW (liberação de portas).
+Acesso a rede pública (para troca de arquivos).
+Azure Datalake Storage
+
+
+ (Bela - Walter Baltazar, 104  -  (23 novembro) 24  girasol.)
+
+(Ninsoft falta senha para abrir os chamados)
+
+
+( DATA 25/04/2019 ) Quinta feira.
+
+Entrei ao 12:30. Aguardando liberação de senha para abrir os chamados no (Ninsoft) de instalção dos pacotes e acessos.
+
+Reinaldo Damaceno - Ajudando na conexão e instalção do acessos e programas, assim saímos da fila de espera para instalção dos programas no Desktop interno, sendo instalado hoje Visual Studio e o restante dos programas amanhã 26.04.2019.
+
+
+( DATA 26/04/2019 ) Sexta feira.
+
+Reunião das 10:00.
+Participantes Marcelo, Aline, Rafael.
+
+Assuntos;
+
+* Pauta, Alciro assumiu no lugar do Marcelo como primeiro ponto de apoio da Microsoft.
+* Status da semana de 22/04 até 26/04 - informado que estamos aguardando instalção dos programas e obter acessos para iniciar asatividades do projeto.
+
+* Lendo documentação do SQL SERVER DW, para entender a melhor forma usar e criar as tabelas.
+
+
+( DATA 29/04/2019 ) Segunda Feira.
+
+* Versionamento do TFS para intergration service.
+
+* ( https://andyleonard.blog/2019/03/azure-devops-ssis-and-git-part-0-getting-started/ )- (Documentação de como Acessar os pacotes)
+
+*( Azure DevOps, SSIS, and Git Part 0 - Getting Started - AndyLeonard... )
+
+* Para acessar os pacotes vamos utilizar o Visula Studio, no aba intergretion service e conectar com Azure DevOps inserindo a conta e senha se acesso, para abrir os pacotes.
+
+excel scher point
+
+Flow ( NIFI)
+
+
+( DATA 30/04/2019 ) Terça feira.
+
+SENHA PARA ABRIR OS PACOTES - ( senhapdw )
+
+Hoje neste dia foi disponibilizado na pasta publica os pacotes. 
+
+
+Procidores?
+
+
+Foi levantado todos os 19 pacotes colocando no Excel as informações de (DTSX de cada pacote) (OBJETO) (CONEXÃO) (CONTEÚDO) isso foi iniciado as 11:15 e finalizado de todos os pacotes as 18:10.
+
+( DATA 02/05/2019 ) Quinta feira. 
+
+* Iremos entender melhor a conexão de cada caixinha de cada pacote.
+ 
+ Reunião com Eder (Microsoft)  Marcos Anizio (Boa Vista) Aline França ( BlueShift)
+
+> Verificar ambiente com DBA Marco Menezes.
+> Melhorar pacote para SQL Server, mas após as tabelas estiverem na nuvem.
+> Verificar com DBA Marco Menezes para enviar as estruturas.
+> Informar a Volumetria dos arquivos.
+> Estimado para cada pacote pequeno 16 Horas.
+> Estimado para cada pacote grande 32 Horas.
+> Não fazer melhorias praticas neste momento.
+> Alterar de Data BAse para Schema, para fazer os testes.
+> Criar 2 Admin no Banco para testar.
+
+> 440 Horas vai ser o prazo de horas dividido por 2 = (220 Horas Aline - 220 Horas Rafael)
+
+( Inicio 13.05 até 18.06 )   (Mas passou o inicio para 06/05) 
+
+
+
+( DATA 02/05/2019 - 03/05/2019 ) Quinta e sexta feira fizemos apontamento dos caminhos global para o local.
+
+Tivemos reunião com Aline, Eder Microsoft e Rafael.
+
+Foi informado nesta reunião que foi enviado ontem as informações e levantamento dos arquivos, para o Marcos.
+
+Ficou do Marco fazer a configuração do Firewell, no Aguardo.
+
+Informado ao Eder que estamos criando os arquivos na mão.
+
+
+
+( DATA 06/05/2019 ) Segunda feira.
+
+Foi finalizado a criação manual dos arquivos .csv que teve inicio na sexta feira 03/05 e o termino hj segunda feira 06/05. 
+
+Começamos a fazer 4 pacotes semanalmente.
+
+Inicio 06/05/2019
+
+(PACOTES)
+
+PF NOTCALL > OK 06/05/19 >ALINE<
+
+PF DADOS CADASTRAIS.
+
+PJ DADOS CADASTRAIS
+
+PJ REPRESENTANTE LEGAL
+
+
+
+( DATA 13/05/2019 ) Segunda feira.
+
+Testando os pacotes;
+
+PJ Sintegra OK --> 10/05/2019 (5 horas)
+
+PJ Faturamento Presumido --13/05/2019 (5 horas)
+
+
+( DATA 14/05/2019 ) Terça feira.
+
+PJ juntas OK --> 10/05/2019 (4 horas)
+
+PJ Receita Federal OK --> 10/05/2019 (4 horas)
+
+
+Quarta feira 15/05/2019 fiquei fora bo Boa vista pois, faltava acesso.
+
+( DATA 16/05/2019 ) Quinta Feira.
+
+Voltei para assinar o contrato, e pegar o crachá novo.
+
+
+Quinta Feira 16/05/2019.
+
+Fiquei no Boa vista apenas com o crachá mas sem acesso na máquina pois falta meu o usuário.
+
+
+Sexta Feira 17/05/2019.
+
+Continuo sem acesso na maquina, montando o cronograma de tudo devido muitos atropelamentos.
+
+Anexando no cronograma as novas 10 tabelas.
+
+
+Segunda Feira 20/05/2019.
+
+Estou de Home Office devido não ter usuário criado ainda.
+
+
+Terça Feira 21/05/2019.
+
+Estou em Caieiras devido não ter usuário criado ainda.
+
+
+Quarta feira 22/05/2019.
+
+TREINAMENTO ALTERYX O DIA TODO.
+
+
+Quinta feira 23/05/2019.
+
+TREINAMENTO ALTERYX MANHÃ das 9:00 as 13:00
+
+
+Boa vista voltei 23/05/2019 entrei  as 14:45 -
+
+HOMOLOGAÇÃO DOS PACOTES.
+
+PFBasesCadastrais.dtsx - HOMOLOGAÇÃO OK - 15:10 até 16:35
+PJFaturamentoPresumido.dtsx -HOMOLOGAÇÃO OK - 14:00.
+PJJuntas.dtsx - 
+PJReceitaFederal.dtsx - 
+PJSintegra.dtsx -  
+
+
+Sexta feira 23/05/2019.
+
+foi homologado pacote PJFaturamentoPresumido.dtsx. ok
+
+Enviado cronograma para Pitágoras dos 19 pacotes com entraga neste dia de 5 pacotes.
+
+
+Segunda Feira 20/05/2019.
+
+Homologando os pacotes.
+
+PJJuntas.dtsx -
+PJReceitaFederal.dtsx - 
+PJSintegra.dtsx -
+
+
+================================================================================================
+
+Começamos a homologação dos 11 novos pacotes no dia,  quinta feira - 30/05/2019 e sexta feira - 31/05/2019.
+
+Este dois dias foi utilizado para entender os pacotes para dar início conforme o cronograma que foi de 03/06/2019 até data de entrega 07/06/2019.
+
+Fiz o processo de dois pacotes;
+
+NC_PF_Telefone.dtsx > fiquei travado neste pacote pois a versão utilizada nos pacotes foi 2012 e ficou travado em um problema, de uma Task file system.
+NC_PF_Protocolo.dtsx > fiquei travado neste pacote pois a versão utilizada nos pacotes foi 2012 e ficou travado em um problema, de uma Task file system.
+NC_Executa_Tudo.dtsx
+
+A correção deste problema foi feita tirando a Task, de dentro do Loop e rodando ele fora, assim o processo foi feita e homologado. mas isso foi perdido os dias 03 e 04 segunda e terça.
+
+---------------------------------------------------------------------------------------
+
+Quinta Feira 06/06/2019.
+
+< Inserindo nova VARIAVEL > TELEFONE
+
+strDirRaiz
+
+D:\MarketingServices\Carga\PF\NovaCadastralPF\
+ 
+
+strArquivoCarga
+
+D:\MarketingServices\Carga\PF\NovaCadastralPF\Telefone\telefone_20190214_041147.txt -> @[User::strDirRaiz]+"Telefone\\"+@[User::strNomeArq]
+ 
+
+Loop
+
+D:\MarketingServices\Carga\PF\NovaCadastralPF\Telefone\
+
+@[User::strDirRaiz]+"Telefone\\"
+
+
+Inserimos uma variavel > strNomeArq < > telefone_20190214_041147.txt
+E incluimos a expressão na linha strArquivoCarga > @[User::strDirRaiz]+"Telefone\\"+@[User::strNomeArq]
+
+----------------------------------------------------------------------------------------
+
+< Inserindo nova VARIAVEL > PROTOCOLO
+ 
+
+strDirRaiz
+D:\MarketingServices\Carga\PF\NovaCadastralPF\
+
+strArquivoCarga
+D:\MarketingServices\Carga\PF\NovaCadastralPF\Protocolo\protocolo_20190213_120636.txt -> @[User::strDirRaiz]+"Protocolo\\"+@[User::strNomeArq]
+
+Loop
+D:\MarketingServices\Carga\PF\NovaCadastralPF\Protocolo\
+
+@[User::strDirRaiz]+"Protocolo\\"
+
+ 
+
+Inserimos uma variavel > strNomeArq < > protocolo_20190213_120636.txt
+E incluimos a expressão na linha strArquivoCarga > @[User::strDirRaiz]+"Protocolo\\"+@[User::strNomeArq]
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Reunião 14/08/19
+
+SQL DW - Tem tabela Mestre?
+R: Reconstruindo todos os dias em carga FULL. ( Colocar na rotina ).
+
+DW - Verificar se possivel usar outra instancia fora do pais?
+
+Caso tenha restrição, será necessario criar novo DW.
+
+O restante do Netezza vai para onde?
+R: Marcos, vai para Big Data a/c Renan.
+
+
+Os pipelines?
+
+Azure DevOps está usando?
+R: Não
+
+
+* O que falta é testar as conexões apontando as origens sql server 2000 e 2012.
+
+* 
+
+
+========================================================================
+
+Reunião
+
+TEMA: Teste de Performace.
+
+INTEGRANTES: Aline, Rafael, Marcos, Silvio.
+
+
+PONTOS ACERTADOS;
+
+ 
+* Marcar reunião com os DBA Boa Vista para apresentar o desenvolvimento do projeto NETEZZA. * Reunião agendada para segunda feira 19.08.2019 > Jorge e Giroto.
+
+
+* Marcar reunião com o Gabriel Martins responsavel pelo ambiente da nuvem sobre suporte de produção  * Aline está resolvendo melhor data com ele.
+
+ 
+* Estimar esforço da nova atividade, que seria migrar os dados do comportamental para Oracle exadata * ???
+
+
+
+Gabriel Martins ( Nuvem)
+
+(Conversar sobre suporte de produção)
+
+========================================================================
+
+Para criação do novo detalhe de criar mais uma conecxão do Data factory para exadata (Oracle)
+
+1 - Marcos inserir o arquivo no DataFactory criando conexão.
+
+2 - Solicitar criação das tabelas aos DBA, SQL Server e SQL DW.
+
+3 - Estimar o tempo par executar este trabalho
+
+
+
+=======================================================================
+
+19.08.2019 Segunda Feira.
+
+Conforme solicitado na quinta-feira, segue horas estimadas para migrar os dados do comportamental para o Oracle Exadata:
+
+
+-> 160h  <- 80 horas para cada sendo 40 horas por semana, total de 2 semanas.
+
+
+Atividades:
+ 
+
+- Criar uma nova origem (File System), o Work Loader deverá entregar o arquivo no 10.20.30.23.
+
+- Criar um novo destino (no Oracle) para cada Pipelines existentes (11).
+
+
+Obs.:
+ 
+
+Para iniciarmos as atividades, precisamos:
+
+ 
+
+- Ter acesso ao Exadata; -> DBA
+
+- Criar as tabelas; -> DBA
+
+- Configurar a ‘connection’ no Data Factory; -> Marcos Anizio.
+
+- Novo arquivo disponibilizado no 10.20.30.23; -> Marcos Anizio.
+
+
+=======================================================================
+
+21.08.2019
+
+Reunião com Gabriel Martins para apresentar projeto para sustentação, feita e apresentada. ok
+
+
+=======================================================================
+
+26.08.2019
+
+Comecei a entrar as 7:00 para sair as 16:00 nesta data.
+
+Estamos com projeto parado no aguardo de definição do Boa vista para começar apontar os arquivos no DataFactory	para o Exadata ( Oracle )
+
+
+
+=======================================================================
